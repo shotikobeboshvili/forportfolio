@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to bottom, #0A1E64, #0D2D6F, #154C8B, #1E83AA,
+    #25A2C6, #12BDDB, #60CDE4, #FEBEC9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h2{
+    display: grid;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: white;
+}
+
+
+.firstdiv div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstdiv h1 {
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+
+.firstdiv p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.firstdiv button {
+    text-align: center;
+    align-items: center;
+    width: 145px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    background-color: #0A1E64;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: .5s ease;
+}
+
+.firstdiv button:hover {
+    background: linear-gradient(to bottom, #0D2D6F, #154C8B, #1E83AA);
+}
+
+
+.SecondDiv {
+    width: 100%;
+    height: 234px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.SecondDiv div {
+    text-align: center;
+    margin: 10px;
+}
+
+.SecondDiv div p {
+    font-size: 18px;
+}
+
+.SecondDiv div h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+
+
+.ThirdDiv {
+    width: 100%;
+    height: 481px;
+    background-color: #F4F7FA;
+}
+
+.ThirdDivDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.accessdiv {
+    width: 560px;
+    height: 80px;
+    margin: 12px;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imgdiv {
+    width: 48px;
+    height: 48px;
+    background-color: #ECF6FF;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ThirdDivDiv p {
+    font-size: 16px;
+    margin: 20px;
+    color: #00060B;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ForthDiv {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180.01deg, #0A1E64 -20.89%, #18397C -8.8%, #15618B 8.03%, #1E83AA 27.89%, #25A2C6 52.16%, #FEBEC9 100%);
+}
+
+.ForthDiv div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ForthDiv div p {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 20px;
+    text-align: center;
+}
+
+.ForthDiv div button {
+    width: 194px;
+    height: 52px;
+    background-color: #0A1E64;
+    color: #ffffff;
+    border-radius: 40px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+footer {
+    width: 100%;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FooterDiv {
+    width: 560px;
+    height: 180px;
+}
+
+.links {
+    height: 109px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links1 {
+    text-align: center;
+}
+
+.links1 p {
+    margin: 4px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.links2 {
+    width: 409px;
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+}
+
+.links2 a {
+    margin: 0 8px;
+    color: #00060B;
+    text-decoration: underline;
+}
+
+.icons {
+    width: 560px;
+    height: 44px;
+    margin: 32px 0;
+    border: 2px solid #E7E7E7;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.iconsDiv {
+    font-size: 18px;
+}
+
+.iconsDiv a {
+    text-decoration: none;
+    color: #00060B;
+    margin: 0px 14px;
+}
